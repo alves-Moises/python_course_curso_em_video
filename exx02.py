@@ -1,0 +1,12 @@
+n1 = int(input('digite um valor: '))
+n2 = int(input('digite outro valor: '))
+s = n1 + n2
+print(f"A soma entre {n1} e {n2} é {s}")
+a=input('Digite algo: ')
+print(f'Só tem espaços? {a.isspace()}')
+print(f'É numérico? {a.isnumeric()}')
+print(f'É alfabético? {a.isalpha()}')
+print(f'É alfanumérico? {a.isalnum()}')
+print(f'Está em letras maiúsculas?{a.isupper()}')
+print(f'Está em letras minúsculas? {a.islower()}')
+print(f'Está capitalizada? {a.istitle()}')
